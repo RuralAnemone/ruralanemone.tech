@@ -1,0 +1,66 @@
+html {
+  background: purple;
+}
+
+.header {
+  text-align: center;
+  margin-top: 0;
+  text-color: black;
+}
+
+img.header {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 6.9%;
+  border-radius: 16.18%;
+}
+
+a:visited {
+  animation: color-change 1s infinite;
+}
+
+body {
+  margin-left: 10px;
+  text-decoration: bold;
+}
+
+.content {
+  position: relative;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@keyframes color-change {
+  0% { color: green; }
+  50% { color: purple; }
+  100% { color: green; }
+}
+
+.watermark {
+  text-align: center;
+  opacity: 0.5;
+}
+
+a:visited.hidden {
+  color:black;
+}
+
+a:visited {
+  color:whitesmoke;
+}
+
+a:link {
+  color:lawngreen;
+  size:42069rem;
+}
+
+a.mailto {
+  color:white;
+}

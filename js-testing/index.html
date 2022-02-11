@@ -1,0 +1,37 @@
+<button onclick="evalButton()">eval</button>
+<button onclick="rotateButton()">rotate string</button>
+
+<script>
+  function evalButton(){
+    var x = prompt("input your code:");
+    eval(x);
+    console.log("done!");
+  }
+
+function rotate(string, amount) {
+  var newString = "";
+  var stringList = [];
+  for (let i = amount; i < string.length; i++){
+    //take the first {amount} letters off the string
+    stringList[i - amount] = string[i];
+  }
+
+  for (let i = 0; i < stringList.length; i++) {
+    //rebuild a string from the list
+    newString = newString + stringList[i];
+  }
+
+  for (let i = 0; i < amount; i++) {
+    //put the first {amount} letters of {string} at the end of newString
+    newString = newString + string[i];
+  }
+  
+  return newString;
+}
+
+function rotateButton(){
+  var string = prompt("string?");
+  var amount = prompt("rotation?");
+  alert("rotated string:\n" + rotate(string, amount));
+}
+</script>
