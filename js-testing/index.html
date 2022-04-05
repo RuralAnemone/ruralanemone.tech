@@ -1,7 +1,11 @@
 <button onclick="evalButton()">eval</button>
 <button onclick="rotateButton()">rotate string</button>
-
+<button onclick="url()">redirect to url (for rammerhead)</button>
+  
 <script>
+  function url(){
+    window.location = prompt("url?");
+  }
   function evalButton(){
     var x = prompt("input your code:");
     eval(x);

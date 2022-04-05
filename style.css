@@ -1,5 +1,9 @@
 html {
-  background: purple;
+  background: black;
+}
+
+.bg {
+  animation: color-change 6.9s infinite;
 }
 
 .header {
@@ -23,6 +27,10 @@ a:visited {
 body {
   margin-left: 10px;
   text-decoration: bold;
+  background-image: url("images/ua.gif");
+  background-size: cover;
+  height: 100vh;
+  border: none;
 }
 
 .content {
@@ -38,9 +46,9 @@ body {
 }
 
 @keyframes color-change {
-  0% { color: green; }
-  50% { color: purple; }
-  100% { color: green; }
+  0% { color: blue; }
+  50% { color: yellow; }
+  100% { color: blue; }
 }
 
 .watermark {
@@ -52,15 +60,11 @@ a:visited.hidden {
   color:black;
 }
 
-a:visited {
-  color:whitesmoke;
-}
-
 a:link {
-  color:lawngreen;
+  color:#292929;
   size:42069rem;
 }
 
 a.mailto {
-  color:white;
+  color:#5b1a1a;
 }
