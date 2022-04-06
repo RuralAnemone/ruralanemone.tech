@@ -27,8 +27,8 @@ a:visited {
 body {
   margin-left: 10px;
   text-decoration: bold;
-  background-image: url("images/ua.gif");
-  background-size: cover;
+  /* background-image: url("images/ua.gif");
+  background-size: cover; */
   height: 100vh;
   border: none;
 }
