@@ -22,6 +22,7 @@ img.header {
 
 a:visited {
   animation: color-change 1s infinite;
+  color: cornflowerblue;
 }
 
 body {
@@ -58,14 +59,14 @@ body {
 }
 
 a:visited.hidden {
-  color:black;
+  color:ghostwhite;
 }
 
 a:link {
-  color:#292929;
+  color:#beeeef;
   size:42069rem;
 }
 
 a.mailto {
-  color:#5b1a1a;
+  color:#ffcccc;
 }

@@ -19,6 +19,7 @@ in {
         pkgs.python39Packages.waitress
         pkgs.postgresql
         pkgs.python39Packages.psycopg2
+        pkgs.tree
     ];
 
 }

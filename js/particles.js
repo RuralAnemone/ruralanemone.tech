@@ -1,4 +1,5 @@
-{
+/* ---- particles.js config ---- */
+particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 80,
