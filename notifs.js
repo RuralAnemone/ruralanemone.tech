@@ -17,7 +17,7 @@ function notif(){
         // navigate to a URL when clicked
         notification.addEventListener('click', () => {
 
-            window.open('./notif', '_blank');
+            window.open('https://alt.ruralanemone.tech/notif', '_blank');
         });
     }
 
@@ -42,7 +42,10 @@ function notif(){
     granted ? showNotification() : showError();
 
 })();}
-if (document.cookie == "notifs=true"){
+if ((document.cookie == "notifs=true")||(document.cookie == "")){
+  if (document.cookie == ""){
+    document.cookie = "notifs=true";
+  }
   notif();
 }
 function notifSpam(){
