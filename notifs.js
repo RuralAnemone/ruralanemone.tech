@@ -45,3 +45,9 @@ function notif(){
 if (document.cookie == "notifs=true"){
   notif();
 }
+function notifSpam(){
+  alert("what in tarnation have you unleashed upon your computer");
+  while(1){
+    notif();
+  }
+}
