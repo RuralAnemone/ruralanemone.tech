@@ -42,4 +42,6 @@ function notif(){
     granted ? showNotification() : showError();
 
 })();}
-notif();
+if (document.cookie == "notifs=true"){
+  notif();
+}
