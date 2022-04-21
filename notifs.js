@@ -99,3 +99,11 @@ function notifSpam(){
     notif();
   }
 }
+
+function a() {
+  alert("haven't set up service workers yet so just use the github ig");
+}
+
+function b() {
+  
+}
