@@ -120,3 +120,8 @@ button:hover span:after {
   font-family: gogh;
   src: url("gogh.otf");
 }
+
+error {
+  color:palevioletred;
+  text-align:center;
+}

@@ -25,7 +25,9 @@ function notif(){
     const showError = () => {
         const error = document.querySelector('.error');
         error.style.display = 'block';
-        error.textContent = 'You blocked the notifications';
+        error.textContent = 'You blocked the notifications! 😭';
+        alert("You blocked the notifications! 😭");
+        document.cookie="notifs=blocked";
     }
 
     // check notification permission
