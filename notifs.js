@@ -25,7 +25,7 @@ function notif(){
     const showError = () => {
         const error = document.querySelector('.error');
         error.style.display = 'block';
-        error.textContent = 'You blocked the notifications! 😭';
+        error.textContent = 'bruh what? allow notifications please';
         alert("You blocked the notifications! 😭");
         document.cookie="notifs=blocked";
     }
@@ -71,7 +71,7 @@ function beg(){
     const showError = () => {
         const error = document.querySelector('.error');
         error.style.display = 'block';
-        error.textContent = 'You blocked the notifications';
+        error.textContent = 'bruh what? allow notifications please';
     }
 
     // check notification permission
