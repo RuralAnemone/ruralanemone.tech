@@ -72,10 +72,6 @@ a.mailto {
   color:#ffcccc;
 }
 
-.donate {
-  text-align: right;
-}
-
 button {
   display: inline-block;
   border-radius: 4px;
@@ -121,7 +117,19 @@ button:hover span:after {
   src: url("gogh.otf");
 }
 
-error {
+.error {
   color:palevioletred;
   text-align:center;
+}
+
+.footer {
+  bottom: 0%;
+  right: 0%;
+  position: fixed;
+}
+
+.donate {
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
 }
