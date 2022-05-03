@@ -1,5 +1,5 @@
 function notif(){
-// hi lol I just took this from what basically amounts to mdn (javascripttutorials.net)
+// hi lol I just took this from mdn
 (async () => {
     // create and show the notification
     const showNotification = () => {
@@ -45,7 +45,7 @@ function notif(){
 
 })();}
 function beg(){
-// hi lol I just took this from what basically amounts to mdn (javascripttutorials.net)
+// hi lol I just took this from mdn
 (async () => {
     // create and show the notification
     const showNotification = () => {
