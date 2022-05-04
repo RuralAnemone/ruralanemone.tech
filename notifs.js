@@ -17,7 +17,7 @@ function notif(){
         // navigate to a URL when clicked
         notification.addEventListener('click', () => {
 
-            window.open('https://alt.ruralanemone.tech/notif', '_blank');
+            window.open('https://ruralanemone.tech/notif', '_blank');
         });
     }
 
