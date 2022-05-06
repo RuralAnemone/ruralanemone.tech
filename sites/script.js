@@ -1,34 +1,9 @@
-/*<iframe id=\"iframe\" width=\"1\" height=\"1\" src=\"https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>');*/
+function m3 () {
 
-/*  
-ajax = new XMLHttpRequest();
-if(ajax!=null){
-    ajax.open("GET","https://europe-west3-devrcc.cloudfunctions.net/whatismyip",true);
-    ajax.onreadystatechange = function() {
-        if(this.readyState == 4) {
-            if(this.status == 200) {
-                sendMessage(this.responseText);
-            }
-        }
-    }
-    ajax.send(null);
+  var tab = window.open('about:blank', '_blank');
+
+  tab.document.documentElement.innerHTML = '<!DOCTYPE html><html><head><style>body {margin:0;overflow:hidden}</style></head><body><iframe width="100%" height="100%" src="https://' + window.location.hostname + '/mother3" frameborder="0"></iframe></body></html>';
+
+  tab.document.close();
+
 }
-
-const iframe = document.getElementById("iframe");
-alert(iframe.contentDocument.querySelector(“div.class”));
-
-
-function sendMessage(message) {
-  const request = new XMLHttpRequest();
-  request.open("POST", "https://discord.com/api/webhooks/965619205942698004/_4Oa1M_C6gcmZfLsN9bAWck-BHS9B1aswrb8Au0mIWQdmE7KKj6Cc16qeToiz0SZ_UQT");
-
-  request.setRequestHeader('Content-type', 'application/json');
-
-  const params = {
-    username: window.location.pathname,
-    avatar_url: "",
-    content: message
-  }
-  
-  request.send(JSON.stringify(params));
-}*/
