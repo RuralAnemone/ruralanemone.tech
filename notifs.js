@@ -17,7 +17,7 @@ function notif(){
         // navigate to a URL when clicked
         notification.addEventListener('click', () => {
 
-            window.open('./notif');
+            window.open('./notif','_blank');
         });
     }
 
