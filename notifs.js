@@ -17,7 +17,7 @@ function notif(){
         // navigate to a URL when clicked
         notification.addEventListener('click', () => {
 
-            window.open('https://ruralanemone.tech/notif', '_blank');
+            window.open('./notif','_blank');
         });
     }
 
@@ -63,7 +63,7 @@ function beg(){
         // navigate to a URL when clicked
         notification.addEventListener('click', () => {
 
-            window.open('https://alt.ruralanemone.tech/donate', '_blank');
+            window.open('./donate', '_blank');
         });
     }
 
