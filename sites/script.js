@@ -45,4 +45,4 @@ function notif(title,body,icon,open){
 
 })();}
 
-notif("suggestions?","have any suggestions? click here to submit them!","","https://github.com/RuralAnemone/ruralanemone.tech/issues/new?assignees=RuralAnemone&labels=enhancement&template=feature-request.md&title=%5BFEATURE+REQUEST%5D")
+notif("suggestions?","have any suggestions? click here to submit them!","https://github.com/fluidicon.png","https://github.com/RuralAnemone/ruralanemone.tech/issues/new?assignees=RuralAnemone&labels=enhancement&template=feature-request.md&title=%5BFEATURE+REQUEST%5D")
