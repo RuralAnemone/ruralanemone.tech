@@ -1,0 +1,60 @@
+name: Bug report
+description: Create a report to help improve my website!
+title: '[Bug] '
+labels: ["🐜 Bug"]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Check these boxes to make sure you did everything right!
+      description: Just click on the box to check it off!
+      options:
+        - label: I have made sure that this issue does not already exist
+          required: true
+        - label: I have submitted screenshots of the bug
+          required: true
+        - label: I just checked all of these boxes without reading them
+          required: false
+  - type: dropdown
+    attributes:
+      label: What browser are you using?
+      description: Use the dropdown to select which browser you are using
+      options:
+        - Google Chrome
+        - Mozilla Firefox
+        - Microsoft Edge
+        - Apple Safari
+        - Other
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: If you said other above, please specify which browser you use
+      description: THIS IS NOT REQUIRED! Only put something in here if you said other in the dropdown above!
+      placeholder: Dillo
+  - type: dropdown
+    attributes:
+      label: What device are you using?
+      description: Use the dropdown to select which device you are using
+      options:
+        - Chromebook
+        - iPad
+        - Windows Laptop (or any device running Windows)
+        - Macbook (or any device running macOS)
+        - iPhone
+        - Other (please note in text field below)
+  - type: input
+    attributes:
+      label: If you said other above, please specify which device you use
+      description: THIS IS NOT REQUIRED! Only put something in here if you said other in the dropdown above!
+      placeholder: TI-nspire CX II CAS
+  - type: textarea
+    attributes:
+      label: Please explain the issue
+      description: What is the issue? Be sure to inclue screenshots and/or console logs (if you can). If you have anything else to say please do that here as well!
+      placeholder: Please type here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Thank you for submitting a bug report! I will try and tackle it as soon as possible!
